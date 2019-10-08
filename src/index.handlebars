@@ -1,0 +1,50 @@
+<!doctype html>
+<!-- rtl -->
+<!-- ltr -->
+<html dir='ltr' lang="en">
+{{> app/includes/head }}
+<body class="slides  chain   slow noPreload animated">
+ 
+{{> app/includes/header }}
+  <div class="wrapper">
+      <section class="slide whiteSlide project ">
+        <div class="content">
+          <div class="container">
+            <div class="wrap">
+              <div class="grid noSpaces">
+                <div class="section-text col-7-12 margin-bottom-5">
+                  <h1 data-localize='project_title' ></h1>
+                  <p class="opacity-7" data-localize='project_subtitle'>adipiscing elit, sed do eiusmod tempor incididunt
+                    adipiscing elit, sed do eiusmod
+                    tempor incididunt ut
+                  </p>
+                  <div class="flex  justifiy-center">
+                    <div class="line"></div>
+                  </div>
+                  <a href="/about" data-localize="know_who_we_are">know more</a>
+                </div>
+  
+                <div class="images col-5-12 ">
+                  <div class="image-content img-wrap">
+                    <div class="background" style="background: url('${ require(`./assets/img/gallery/img-1.jpg`)}')  "></div>
+                    <div class="background" style="background: url('${ require(`./assets/img/gallery/img-1.jpg`)}') "></div>
+                  </div>
+                  <div class="image-content img-wrap">
+                    <div class="background" style="background: url('${ require(`./assets/img/gallery/img-2.jpg`)}') "></div>
+                    <div class="background" style="background: url('${ require(`./assets/img/gallery/img-2.jpg`)}') "></div>
+                  </div>
+                </div>
+  
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+  </div>
+{{> app/includes/footer }}
+
+  
+</body>
+
+</html>   
